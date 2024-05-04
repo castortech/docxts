@@ -1,0 +1,27 @@
+
+{
+  "name": "docxts",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "import-meta-resolve": "^4.1.0",
+    "markdown-extensions": "^2.0.0",
+    "remark": "^15.0.1",
+    "remark-docx": "^0.1.6",
+    "remark-gfm": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "unified-args": "^11.0.1",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
